@@ -111,6 +111,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0015ed8c0fde10a072b5f1317779f59a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_r1121.html#a0015ed8c0fde10a072b5f1317779f59a">LR1121</a> (<a class="el" href="class_module.html">Module</a> *mod)</td></tr>
 <tr class="memdesc:a0015ed8c0fde10a072b5f1317779f59a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_l_r1121.html#a0015ed8c0fde10a072b5f1317779f59a">More...</a><br /></td></tr>
 <tr class="separator:a0015ed8c0fde10a072b5f1317779f59a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada6bdb0c6e039e9d05e47fabcd55a39e"><td class="memItemLeft" align="right" valign="top">int16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_r1121.html#ada6bdb0c6e039e9d05e47fabcd55a39e">setOutputPower</a> (int8_t power, bool useHighFreqPa=false)</td></tr>
+<tr class="memdesc:ada6bdb0c6e039e9d05e47fabcd55a39e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets output power. Allowed values are in range from -17 to 22 dBm (high-power PA) or -18 to 13 dBm (High-frequency PA).  <a href="class_l_r1121.html#ada6bdb0c6e039e9d05e47fabcd55a39e">More...</a><br /></td></tr>
+<tr class="separator:ada6bdb0c6e039e9d05e47fabcd55a39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_l_r1120"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_l_r1120')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_l_r1120.html">LR1120</a></td></tr>
 <tr class="memitem:ae652f10ebc1e4b8245eb5a0c97765257 inherit pub_methods_class_l_r1120"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_r1120.html#ae652f10ebc1e4b8245eb5a0c97765257">LR1120</a> (<a class="el" href="class_module.html">Module</a> *mod)</td></tr>
 <tr class="memdesc:ae652f10ebc1e4b8245eb5a0c97765257 inherit pub_methods_class_l_r1120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="class_l_r1120.html#ae652f10ebc1e4b8245eb5a0c97765257">More...</a><br /></td></tr>
@@ -506,6 +509,45 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ada6bdb0c6e039e9d05e47fabcd55a39e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada6bdb0c6e039e9d05e47fabcd55a39e">&#9670;&nbsp;</a></span>setOutputPower()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int16_t LR1121::setOutputPower </td>
+          <td>(</td>
+          <td class="paramtype">int8_t&#160;</td>
+          <td class="paramname"><em>power</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useHighFreqPa</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets output power. Allowed values are in range from -17 to 22 dBm (high-power PA) or -18 to 13 dBm (High-frequency PA). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">power</td><td>Output power to be set in dBm. </td></tr>
+    <tr><td class="paramname">useHighFreqPa</td><td>When using 2.4G frequency, need to switch to High-frequency PA </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="group__status__codes.html">Status Codes</a> </dd></dl>
 
 </div>
 </div>

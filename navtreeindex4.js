@@ -1,5 +1,6 @@
 var NAVTREEINDEX4 =
 {
+"class_s_x127x.html#aeac64ca102a143624993cb7cb5b9e17c":[3,0,72,1],
 "class_s_x127x.html#aee5324d7d854e7a2f6768221d4f362cd":[3,0,72,21],
 "class_s_x127x.html#aefeeb9f7192e11a75b5dfb1ab8488e84":[3,0,72,94],
 "class_s_x127x.html#af6aa854a2668d70f4d3a374a49440362":[3,0,72,25],
@@ -232,8 +233,8 @@ var NAVTREEINDEX4 =
 "functions_enum.html":[3,3,4],
 "functions_eval.html":[3,3,5],
 "functions_f.html":[3,3,0,5],
-"functions_func.html":[3,3,1,0],
 "functions_func.html":[3,3,1],
+"functions_func.html":[3,3,1,0],
 "functions_func_b.html":[3,3,1,1],
 "functions_func_c.html":[3,3,1,2],
 "functions_func_d.html":[3,3,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "functions_func_o.html":[3,3,1,12],
 "functions_func_p.html":[3,3,1,13],
 "functions_func_r.html":[3,3,1,14],
-"functions_func_s.html":[3,3,1,15],
-"functions_func_t.html":[3,3,1,16]
+"functions_func_s.html":[3,3,1,15]
 };

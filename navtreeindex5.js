@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"functions_func_t.html":[3,3,1,16],
 "functions_func_u.html":[3,3,1,17],
 "functions_func_v.html":[3,3,1,18],
 "functions_func_w.html":[3,3,1,19],
@@ -147,8 +148,8 @@ var NAVTREEINDEX5 =
 "group__typedefs.html":[2,7],
 "group__typedefs.html#ga210f31dd2bff7fb80563275648a5bbbd":[2,7,0],
 "hierarchy.html":[3,2],
-"index.html":[],
 "index.html":[0],
+"index.html":[],
 "lr1110__transceiver__0303_8h_source.html":[4,0,0,0,2,0,0],
 "lr1110__transceiver__0304_8h_source.html":[4,0,0,0,2,0,1],
 "lr1110__transceiver__0305_8h.html":[4,0,0,0,2,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "struct_l_r11x0_wifi_result_full__t.html#a47cb77c1ccf8da32d3a4102518c0d72c":[3,0,32,2],
 "struct_l_r11x0_wifi_result_full__t.html#a4fbd2bfd834c890da47ab94c6f688738":[3,0,32,5],
 "struct_l_r11x0_wifi_result_full__t.html#aac254fd90872d9e3457a0c44409ff9fb":[3,0,32,1],
-"struct_l_r11x0_wifi_result_full__t.html#ab4f5ee1a99afca09242ae31ae8bc75c2":[3,0,32,0],
-"struct_l_r11x0_wifi_result_full__t.html#abe8e8b5e22a75ac988de6f98afa5fd61":[3,0,32,6]
+"struct_l_r11x0_wifi_result_full__t.html#ab4f5ee1a99afca09242ae31ae8bc75c2":[3,0,32,0]
 };
